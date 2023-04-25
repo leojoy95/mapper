@@ -29,7 +29,9 @@
     "semantic-release": "semantic-release",
     "deploy-docs": "ts-node tools/gh-pages",
     "deploy-docusaurus": "ts-node tools/netlify-docs",
-    "report-coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "report-coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "peerDependencies": {
     "reflect-metadata": "^0.1.13"
@@ -117,6 +119,8 @@
     "typescript": "3.8.3"
   },
   "dependencies": {
-    "lodash.set": "4.3.2"
-  }
+    "lodash.set": "4.3.2",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
