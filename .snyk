@@ -1,0 +1,64 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@commitlint/cli > lodash':
+        patched: '2023-04-25T02:58:08.524Z'
+    - commitizen > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - semantic-release > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - typedoc > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - '@commitlint/cli > @commitlint/load > lodash':
+        patched: '2023-04-25T02:58:08.524Z'
+    - cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - '@commitlint/config-conventional > conventional-changelog-conventionalcommits > lodash':
+        patched: '2023-04-25T02:58:08.524Z'
+    - commitizen > inquirer > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - cz-conventional-changelog > commitizen > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - tsdx > @babel/core > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - tsdx > babel-traverse > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - tsdx > eslint > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - tsdx > eslint-plugin-flowtype > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - semantic-release > @semantic-release/commit-analyzer > conventional-commits-parser > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - '@commitlint/cli > @commitlint/load > @commitlint/resolve-extends > lodash':
+        patched: '2023-04-25T02:58:08.524Z'
+    - cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - commitizen > cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - cz-conventional-changelog > commitizen > inquirer > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - tsdx > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - tsdx > babel-traverse > babel-types > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - tsdx > eslint > inquirer > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - tsdx > eslint > table > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/parse > conventional-commits-parser > lodash':
+        patched: '2023-04-25T02:58:08.524Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/rules > @commitlint/ensure > lodash':
+        patched: '2023-04-25T02:58:08.524Z'
+    - commitizen > cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - tsdx > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
+    - tsdx > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2023-04-25T02:58:08.524Z'
